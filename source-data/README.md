@@ -8,7 +8,6 @@ Where multiple formats are offer, CSV is preferred.
 
 - [Government service counter locations](https://data.qld.gov.au/dataset/government-service-counter-locations) - [data](qgap.csv)
 - [Queensland public hospitals](https://data.qld.gov.au/dataset/queensland-public-hospitals) - [data](130711-public-hospitals.xls)
-- [Queensland Ambulance Service Stations and Other Locations](https://data.qld.gov.au/dataset/queensland-ambulance-service-stations-and-other-locations) - [data](qas-stations-and-other-locations-2014-16-v1-0-20171220.xlsx) 2016 and prior
 - [Queensland Ambulance Service Locations and Co-ordinates](https://data.qld.gov.au/dataset/queensland-ambulance-service-locations-and-co-ordinates) - [data](qas-locations-and-coordinates-2014-16-v1-0-20171220.xlsx) 2017
 - [BreastScreen Queensland - Service Locations](https://data.qld.gov.au/dataset/breastscreen-queensland-service-locations) - [data](breastscreen-qld-locations-v5.csv)
 - [Queensland Fire and Emergency Services - Urban Fire Stations](https://data.qld.gov.au/dataset/queensland-urban-fire-stations) - [data](UrbanFireStations.csv)
@@ -24,7 +23,7 @@ Where multiple formats are offer, CSV is preferred.
 - [Prison locations](https://data.qld.gov.au/dataset/prison-locations) - [data](prison-locations.csv)
 - [Youth justice centre locations](https://data.qld.gov.au/dataset/youth-justice-centre-locations) - [data](youth-detention-centre-locations.csv)
 - [Courthouse locations](https://data.qld.gov.au/dataset/courthouse-locations) - [data](courthouses.csv)
-- [Service Locations –Department of Communities, Child Safety and Disability Services](https://data.qld.gov.au/dataset/service-locations-department-of-communities-child-safety-and-disability-services) - [data](dccsds-service-locations.csv)
+- [Contacts list—Department of Communities, Child Safety and Disability Services](https://data.qld.gov.au/dataset/contacts-list-department-of-communities-child-safety-and-disability-services) - [data](dccsds-contact-details.csv)
 - [Sport and recreation services training-providers](https://data.qld.gov.au/dataset/sport-and-recreation-services-training-providers) - [data](registered-training-organisations-july-2013.csv)
 - [Training organisations](https://data.qld.gov.au/dataset/training-organisations) - [data](registered-training-organisations-july-2013.csv)
 - [Queensland state schools—geographic information](https://data.qld.gov.au/dataset/queensland-state-schools-geographic-information) - data not available for download

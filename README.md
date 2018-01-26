@@ -1,6 +1,6 @@
 # Service Locations
 
-*An experiment repackaging service location data.*
+*An experiment in repackaging service location data.*
 
 There are many [tabular location datasets published on data.qld.gov.au](https://data.qld.gov.au/dataset?q=location). A subset of these describe service locations, e.g. the locations of hospitals, schools and fire stations.
 
@@ -19,7 +19,7 @@ Some datasets are messy e.g.
 In some cases these datasets drive the display of [service locations on qld.gov.au](https://www.qld.gov.au/transport/contacts/centres). While it's great to see organisations using their own open data to deliver information, this should not be at the expense of others wanting to use the same information.
 
 This repository:
-- collects service location data from data.qld.gov.au
+- collects [service location data](/source-data/README.md) from data.qld.gov.au
 - suggests a template to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25).
 
 The aim is to:

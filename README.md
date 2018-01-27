@@ -21,6 +21,7 @@ Recently [Open Knowledge International](https://okfn.org) produced a report, [Sp
 This repository:
 - collects [service location data](/source-data/) from data.qld.gov.au
 - suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
+- provides [reference data](/reference-data/) to support describing the spatial extent of the data and validating that the service locations are within the spatial extent.
 - repackages the service location data into [data packages](/datapackages/) in line with the recommendations
 
 The aim is to:

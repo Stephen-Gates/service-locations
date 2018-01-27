@@ -1,0 +1,72 @@
+{
+  "name": "service-location-template",
+  "resources": [{
+      "name": "service-locations",
+      "path": "data/service-locations.csv",
+      "profile": "tabular-data-resource",
+      "spatial-profile": "tabular-points",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "locations": [{
+        "name": "service-location",
+        "type": "lat-lon",
+        "fields": {
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        },
+        "spatialExtent": {
+          "reference": {
+            "datapackage": "https://raw.githubusercontent.com/Stephen-Gates/service-locations/master/reference-data/@todo/datapackage.json",
+            "resource": "state-boundaries",
+            "field": "state",
+            "value": "Queensland"
+          }
+        },
+        "geojson-path": "data/service-locations.geojson"
+      }],
+      "schema": {
+        "fields": [{
+            "name": "Office",
+            "type": "string"
+          },
+          {
+            "name": "Latitude",
+            "title": "Latitude",
+            "description": "potential for a new latitude type or number format that constrains values to +/- 90",
+            "type": "latitude",
+            "constraints": {
+              "required": true,
+              "minimum": "-9",
+              "maximum": "-28"
+            }
+          },
+          {
+            "name": "Longitude",
+            "title": "Longitude",
+            "description": "potential for a new longitude type or number format that constrains values to +/- 180",
+            "type": "longitude",
+            "constraints": {
+              "required": true,
+              "minimum": "138",
+              "maximum": "153"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "service-locations-geojson",
+      "description": "a convenience copy of lat-lon.csv in geojson format that is linked to the csv via geojson-path: data/lat-lon.geojson. This prevents the data package having a profile: tabular-data-package",
+      "path": "data/service-locations.geojson",
+      "spatial-profile": "simple-vector",
+      "format": "geojson",
+      "schema": {
+        "fields": [{
+          "name": "Office",
+          "type": "string"
+        }]
+      }
+    }
+  ]
+}

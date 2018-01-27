@@ -19,8 +19,8 @@ In some cases these datasets drive the display of [service locations on qld.gov.
 Recently [Open Knowledge International](https://okfn.org) produced a report, [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/), to explore how the [Frictionless Data specification](https://frictionlessdata.io/specs/) could be refined to improve the publishing of location data.
 
 This repository:
-- collects [service location data](/source-data/README.md) from data.qld.gov.au
-- suggests a template to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
+- collects [service location data](/source-data/) from data.qld.gov.au
+- suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
 - repackages the service location data in line with the recommendations
 
 The aim is to:

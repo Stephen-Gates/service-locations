@@ -4,7 +4,7 @@ A sample of service location data.
 
 Data downloaded from data.qld.gov.au on 2018-01-26. There is no intention to keep this data up-to-date.
 
-Where multiple formats are offer, CSV is preferred.
+Where multiple formats are offered, CSV is preferred.
 
 - [Government service counter locations](https://data.qld.gov.au/dataset/government-service-counter-locations) - [data](qgap.csv)
 - [Queensland public hospitals](https://data.qld.gov.au/dataset/queensland-public-hospitals) - [data](130711-public-hospitals.xls)

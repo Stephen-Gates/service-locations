@@ -14,6 +14,8 @@ Some datasets are messy e.g.
 - markdown in columns
 - html fragments in column to support a specific use case
 
+Based on the validation settings in [goodtables.yml](goodtables.yml) the data is [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/service-locations.svg)](https://goodtables.io/github/Stephen-Gates/service-locations)
+
 In some cases these datasets drive the display of [service locations on qld.gov.au](https://www.qld.gov.au/transport/contacts/centres). While it's great to see organisations using their own open data to deliver information, this should not be at the expense of others wanting to use the same information.
 
 Recently [Open Knowledge International](https://okfn.org) produced a report, [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/), to explore how the [Frictionless Data specification](https://frictionlessdata.io/specs/) could be refined to improve the publishing of location data.

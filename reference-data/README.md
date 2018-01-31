@@ -1,1 +1,1 @@
-This directory contains reference GoeJSON data e.g. Queensland and various administrative boundaries
+This directory contains reference GeoJSON data e.g. Queensland and various administrative boundaries

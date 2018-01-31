@@ -1,0 +1,47 @@
+{
+  "name": "tmr-district-boundaries",
+  "resources": [{
+      "name": "tmr-district-boundaries",
+      "path": "tmr-district-boundaries.json",
+      "spatial-profile": "simple-vector",
+      "locations": {
+        "type": "geojson"
+      },
+      "schema": {
+        "fields": [{
+            "name": "districtname",
+            "type": "string"
+          },
+          {
+            "name": "districtcode",
+            "type": "string",
+            "constraints": {
+              "minlength": 3,
+              "maxlength": 3
+            }
+          },
+          {
+            "name": "district#",
+            "type": "integer"
+          },
+          {
+            "name": "regionname",
+            "type": "string"
+          },
+          {
+            "name": "regioncode",
+            "type": "string",
+            "constraints": {
+              "minlength": 3,
+              "maxlength": 3
+            }
+          },
+          {
+            "name": "region#",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

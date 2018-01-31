@@ -1,0 +1,30 @@
+{
+  "name": "tmr-region-boundaries",
+  "resources": [{
+    "name": "tmr-region-boundaries",
+    "path": "tmr-region-boundaries.json",
+    "spatial-profile": "simple-vector",
+    "locations": {
+      "type": "geojson"
+    },
+    "schema": {
+      "fields": [{
+          "name": "regionname",
+          "type": "string"
+        },
+        {
+          "name": "regioncode",
+          "type": "string",
+          "constraints": {
+            "minlength": 3,
+            "maxlength": 3
+          }
+        },
+        {
+          "name": "region#",
+          "type": "integer"
+        }
+      ]
+    }
+  }]
+}

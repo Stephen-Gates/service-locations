@@ -20,14 +20,28 @@ In some cases these datasets drive the display of [service locations on qld.gov.
 
 Recently [Open Knowledge International](https://okfn.org) produced a report, [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/), to explore how the [Frictionless Data specification](https://frictionlessdata.io/specs/) could be refined to improve the publishing of location data.
 
-This repository:
+This repository for point data:
+
 - collects [service location data](/source-data/) from data.qld.gov.au
 - analyses the [headers in the source data](/point-data/header-analysis.csv) and [groups common headers](/source-data/header-grouping.xls) to help design a template.
 - suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
 - provides [boundary data](/boundary-data/) to support describing the spatial extent of the data and validating that the service locations are within the spatial extent.
 - repackages the service location data into [data packages](/datapackages/) in line with the recommendations
 
+This repository for linked boundary data:
+
+- collects [csv files with a link to boundaries](/linked-boundary-data/)
+- repackages the linked boundary data into [data packages](/datapackages/) that reference spatial [boundary data](/boundary-data/)
+
 The aim is to:
 
-- recommend a new way to publish service location data on data.qld.gov.au
+- recommend new ways to publish location data on data.qld.gov.au
 - provide feedback to Open Knowledge on the [Spatial Data Package Investigation recommendations](https://research.okfn.org/spatial-data-package-investigation/#recommendations)
+
+As part of the work we will also explore leveraging existing concepts, data, and services, e.g.
+
+- [When are open (geospatial) identifiers useful?](https://blog.ldodds.com/2018/01/29/when-are-open-geospatial-identifiers-useful/)
+- [persistent resolvable identifiers](https://www.gov.uk/government/publications/open-standards-for-government/persistent-resolvable-identifiers)
+- [Place names gazetteer - Queensland](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={1B19B980-B171-47C1-9AA6-5B95A7158ADC})
+- [Services](http://qldspatial.information.qld.gov.au/catalogue/custom/search.page?gp-search-term=region&gp-search-go=)
+- [Property Location Service Plus- Queensland Government version](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={D77C19E4-5C24-46E4-80C3-244164182572})

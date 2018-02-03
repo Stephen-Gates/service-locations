@@ -45,3 +45,5 @@ As part of the work we will also explore leveraging existing concepts, data, and
 - [Place names gazetteer - Queensland](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={1B19B980-B171-47C1-9AA6-5B95A7158ADC})
 - [Services](http://qldspatial.information.qld.gov.au/catalogue/custom/search.page?gp-search-term=region&gp-search-go=)
 - [Property Location Service Plus- Queensland Government version](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={D77C19E4-5C24-46E4-80C3-244164182572})
+- [data versioning](https://www.w3.org/TR/dwbp/#dataVersioning) and [spatial data versioning](https://www.w3.org/TR/sdw-bp/#bp-dataversioning)
+

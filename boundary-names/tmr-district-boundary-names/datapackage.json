@@ -1,0 +1,45 @@
+{
+  "profile": "tabular-data-package",
+  "name": "tmr-district-boundary-names",
+  "title": "TMR District Boundary Names",
+  "version": "0.1.0",
+  "resources": [{
+    "profile": "tabular-data-resource",
+    "encoding": "utf-8",
+    "schema": {
+      "fields": [{
+        "name": "District",
+        "type": "string",
+        "format": "default",
+        "title": "TMR District",
+        "description": "TMR District Name",
+        "constraints": {
+          "required": true,
+          "unique": true
+        }
+      }],
+      "missingValues": [""]
+    },
+    "format": "csv",
+    "mediatype": "text/csv",
+    "licenses": [{
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }],
+    "sources": [{
+      "title": "Regional contacts",
+      "path": "https://www.tmr.qld.gov.au/About-us/Contact-us/In-person/Roads-offices",
+      "email": ""
+    }],
+    "name": "tmr-districts",
+    "title": "TMR Districts",
+    "description": "A list of Districts used by the Queensland Department of Transport and Main Roads",
+    "path": "data/tmr-district-boundary-names.csv"
+  }],
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
+  }]
+}

@@ -33,6 +33,9 @@ This repository for linked boundary data:
 - collects [csv files with a link to boundaries](/linked-boundary-data/)
 - repackages the linked boundary data into [data packages](/datapackages/) that reference spatial [boundary data](/boundary-data/)
 
+This repository for non-spatial boundary data:
+- collects [boundary names](/boundary-names/) and packages then so they can be used to validate boundary names in other csv files.
+
 The aim is to:
 
 - recommend new ways to publish location data on data.qld.gov.au

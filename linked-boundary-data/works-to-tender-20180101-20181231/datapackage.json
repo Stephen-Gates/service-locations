@@ -9,11 +9,6 @@
     "title": "Creative Commons Attribution 4.0",
     "path": "https://creativecommons.org/licenses/by/4.0/"
   }],
-  "contributors": [{
-    "title": "Transport and Main Roads",
-    "email": "stephen.z.gates@tmr.qld.gov.au",
-    "role": "author"
-  }],
   "resources": [{
     "profile": "tabular-data-resource",
     "name": "works-to-tender-20180101-20181231",
@@ -23,7 +18,7 @@
     "encoding": "utf-8",
     "format": "csv",
     "mediatype": "text/csv",
-    "bytes": "13000",
+    "bytes": 13000,
     "licenses": [{
       "name": "CC-BY-4.0",
       "title": "Creative Commons Attribution 4.0",
@@ -31,8 +26,12 @@
     }],
     "sources": [{
       "title": "Works to tender—1 January 2018 to 31 December 2018",
-      "path": "https://data.qld.gov.au/dataset/competitive-works-to-tender-department-of-transport-and-main-roads/resource/17905c5d-f019-4ae3-838c-8c9c489bc125",
-      "email": ""
+      "path": "https://data.qld.gov.au/dataset/competitive-works-to-tender-department-of-transport-and-main-roads/resource/17905c5d-f019-4ae3-838c-8c9c489bc125"
+    }],
+    "contributors": [{
+      "title": "Transport and Main Roads",
+      "email": "stephen.z.gates@tmr.qld.gov.au",
+      "role": "author"
     }],
     "schema": {
       "fields": [{
@@ -101,6 +100,6 @@
       "lineTerminator": "\r\n",
       "skipInitialSpace": true,
       "caseSensitiveHeader": false
-    },
+    }
   }]
 }

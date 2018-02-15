@@ -1,10 +1,5 @@
-Source csv data with a boundary id in a column that will be linked to [boundary data](../boundary-data) 
+Works to tender—1 January 2018 to 31 December 2018
 
-## Candidate data
+This data set comprises construction contracts valued at $1m and above intended to be procured over the forward 12 month period.
 
-- [traffic-infringements-issued](https://data.qld.gov.au/dataset/traffic-infringements-issued/resource/44223888-84db-468e-8434-f5852184b3d9) uses [Police District](https://data.qld.gov.au/dataset/qps-districts) and [Region boundaries](https://data.qld.gov.au/dataset/qps-regions)
-- [installed-flashing-school-zone-signs](https://data.qld.gov.au/dataset/installed-flashing-school-zone-signs/resource/ae1a7ded-e60f-49ad-b464-a8e8b5042a2e) uses [State Electoral boundaries](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={079E7EF8-30C5-4C1D-9ABF-3D196713694F})
-- [personal-watercraft-registered-by-local-authority](https://data.qld.gov.au/dataset/personal-watercraft-registered-by-local-authority/resource/25cc8b7a-aeb5-4156-8ff8-939bb1339767) uses [Local Government Area boundaries](http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={3F3DBD69-647B-4833-B0A5-CC43D5E70699})
-- [Proposed Major Works to Competitive Tender—Department of Transport and Main Roads](https://data.qld.gov.au/dataset/competitive-works-to-tender-department-of-transport-and-main-roads) uses [TMR District boundaries](https://github.com/Stephen-Gates/service-locations/tree/master/boundary-data/tmr-district-boundaries)
-- [Crime Locations 2000-present](https://data.qld.gov.au/dataset/crime-locations-2000-present) is published with its own set of surburb, postcode and LGA boundaries using JSON.
-- [Crash data from Queensland roads](https://data.qld.gov.au/dataset/crash-data-from-queensland-roads) uses suburb, postcode, LGA, police district, police region, queensland transport region, main roads region, ABS statistical area 2, 3 and 4, ABS remoteness, state electorate, federal electroate.
+Timing and contract values listed are indicative only and subject to full tender processes. Additional project numbers can be found in the notes section.

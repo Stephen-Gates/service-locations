@@ -11,11 +11,6 @@
   "resources": [{
     "profile": "tabular-data-resource",
     "name": "works-to-tender-20180101-20181231",
-    "locations": [{
-      "type": "boundary-id",
-      "field": "District",
-      "geometrypath": "https://raw.githubusercontent.com/Stephen-Gates/service-locations/master/boundary-data/tmr-district-boundaries/tmr-district-boundaries.json"
-    }],
     "title": "Works to tender—1 January 2018 to 31 December 2018",
     "path": "data/Proposed-Major-Works-to-Competitive-Tender_1-February-2018-to-31-Jan-2019 (1).csv",
     "encoding": "utf-8",
@@ -96,7 +91,6 @@
       "header": true,
       "doubleQuote": true,
       "lineTerminator": "\r\n",
-      "escapeChar": "\\",
       "skipInitialSpace": true,
       "caseSensitiveHeader": false
     },

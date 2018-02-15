@@ -9,6 +9,11 @@
     "title": "Creative Commons Attribution 4.0",
     "path": "https://creativecommons.org/licenses/by/4.0/"
   }],
+  "contributors": [{
+    "title": "Transport and Main Roads",
+    "email": "stephen.z.gates@tmr.qld.gov.au",
+    "role": "author"
+  }],
   "resources": [{
     "profile": "tabular-data-resource",
     "name": "works-to-tender-20180101-20181231",
@@ -18,6 +23,7 @@
     "encoding": "utf-8",
     "format": "csv",
     "mediatype": "text/csv",
+    "bytes": "13000",
     "licenses": [{
       "name": "CC-BY-4.0",
       "title": "Creative Commons Attribution 4.0",

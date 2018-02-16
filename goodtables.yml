@@ -2,7 +2,7 @@
 
 # validate all csv files without reference to the datapackages
 #
-files: '*.csv'
+# files: '*.csv'
 
 # validate a mixture of csv files optionally with a tableschema
 #
@@ -13,5 +13,5 @@ files: '*.csv'
 
 # validate datapackages that reference csv files
 #
-# datapackages:
-#  - datapackages/???/datapackage.json
+ datapackages:
+  - /linked-boundary-data/works-to-tender-20180101-20181231/datapackage.json

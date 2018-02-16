@@ -15,7 +15,7 @@
     "title": "Works to tender—1 January 2018 to 31 December 2018",
     "description": "This data set comprises construction contracts valued at $1m and above intended to be procured over the forward 12 month period. Timing and contract values listed are indicative only and subject to full tender processes. Additional project numbers can be found in the notes section.",
     "path": "data/Proposed-Major-Works-to-Competitive-Tender_1-February-2018-to-31-Jan-2019 (1).csv",
-    "encoding": "us-ascii",
+    "encoding": "utf-8",
     "format": "csv",
     "mediatype": "text/csv",
     "bytes": 13000,

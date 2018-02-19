@@ -1,8 +1,26 @@
 # Service Locations
 
-*An experiment in repackaging service location data*
+*An experiment in packaging location data*
 
-There are many [tabular location datasets published on data.qld.gov.au](https://data.qld.gov.au/dataset?q=location). A subset of these describe service locations, e.g. the locations of hospitals, schools and fire stations.
+## Aim
+
+The aim of this repository is to:
+
+- recommend new ways to publish location data on data.qld.gov.au
+- provide feedback on the Open Knowledge [Spatial Data Package Investigation recommendations](https://research.okfn.org/spatial-data-package-investigation/#recommendations) to the [Frictionless Data specification](https://frictionlessdata.io/specs/).
+
+## Background
+
+There are many [tabular location datasets published on data.qld.gov.au](https://data.qld.gov.au/dataset?q=location), that describe location using:
+
+- points (longitude and latitude coordinate pairs)  
+- boundary identifiers or names
+
+These datasets could be linked to spatial [boundary data](/boundary-data/).
+
+### Service location point data
+
+A subset point location datasets describe service locations, e.g. the locations of hospitals, schools and fire stations.
 
 These are not published in a consistent way making it hard to combine the data. Some location datasets also include services available at the location and opening times, e.g. [Transport and motoring customer service centres](https://data.qld.gov.au/dataset/transport-csc).
 
@@ -14,32 +32,42 @@ Some datasets are messy e.g.
 - markdown in columns
 - html fragments in column to support a specific use case
 
-Based on the validation settings in [goodtables.yml](goodtables.yml) the data is [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/service-locations.svg)](https://goodtables.io/github/Stephen-Gates/service-locations)
-
 In some cases these datasets drive the display of [service locations on qld.gov.au](https://www.qld.gov.au/transport/contacts/centres). While it's great to see organisations using their own open data to deliver information, this should not be at the expense of others wanting to use the same information.
-
-Recently [Open Knowledge International](https://okfn.org) produced a report, [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/), to explore how the [Frictionless Data specification](https://frictionlessdata.io/specs/) could be refined to improve the publishing of location data.
 
 This repository for point data:
 
 - collects [service location data](/source-data/) from data.qld.gov.au
 - analyses the [headers in the source data](/point-data/header-analysis.csv) and [groups common headers](/source-data/header-grouping.xls) to help design a template.
 - suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
-- provides [boundary data](/boundary-data/) to support describing the spatial extent of the data and validating that the service locations are within the spatial extent.
+- provides [boundary data](/boundary-data/) to support:
+  - describing the spatial extent of the point data
+  - validating that the service locations are within the spatial extent
 - repackages the service location data into [data packages](/datapackages/) in line with the recommendations
+
+### Linked Boundary data
 
 This repository for linked boundary data:
 
-- collects [csv files with a link to boundaries](/linked-boundary-data/)
-- repackages the linked boundary data into [data packages](/datapackages/) that reference spatial [boundary data](/boundary-data/)
+- collects [csv files with a link to boundaries](/linked-boundary-data/) and repackages the linked boundary data into data packages that reference spatial [boundary data](/boundary-data/)
+
+### Non-spatial Boundary data
 
 This repository for non-spatial boundary data:
 - collects [boundary names](/boundary-names/) and packages then so they can be used to validate boundary names in other csv files.
 
-The aim is to:
+### Spatial Boundary dataset
 
-- recommend new ways to publish location data on data.qld.gov.au
-- provide feedback to Open Knowledge on the [Spatial Data Package Investigation recommendations](https://research.okfn.org/spatial-data-package-investigation/#recommendations)
+This repository for [spatial boundary data](/boundary-data/):
+
+- converts the data to GeoJSON
+- packages the data into data packages in line with the recommendations
+
+
+## Data Validation
+
+Based on the validation settings in [goodtables.yml](goodtables.yml) the data is [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/service-locations.svg)](https://goodtables.io/github/Stephen-Gates/service-locations)
+
+## References
 
 As part of the work we will also explore leveraging existing concepts, data, and services, e.g.
 

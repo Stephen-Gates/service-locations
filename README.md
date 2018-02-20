@@ -36,12 +36,9 @@ In some cases these datasets drive the display of [service locations on qld.gov.
 
 This repository for point data:
 
-- collects [service location data](/source-data/) from data.qld.gov.au
-- analyses the [headers in the source data](/point-data/header-analysis.csv) and [groups common headers](/source-data/header-grouping.xls) to help design a template.
+- collects [service location point data](/point-data/) from data.qld.gov.au
+- analyses the [headers in the source data](/point-data/header-analysis.csv) and [groups common headers](/point-data/header-grouping.xls) to help design a template.
 - suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
-- provides [boundary data](/boundary-data/) to support:
-  - describing the spatial extent of the point data
-  - validating that the service locations are within the spatial extent
 - repackages the service location data into [data packages](/datapackages/) in line with the recommendations
 
 ### Linked Boundary data
@@ -62,10 +59,18 @@ This repository for [spatial boundary data](/boundary-data/):
 - converts the data to GeoJSON
 - packages the data into data packages in line with the recommendations
 
-
 ## Data Validation
 
-Based on the validation settings in [goodtables.yml](goodtables.yml) the data is [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/service-locations.svg)](https://goodtables.io/github/Stephen-Gates/service-locations)
+Based on the validation settings in [goodtables.yml](goodtables.yml) the tabular data is [![goodtables.io](https://goodtables.io/badge/github/Stephen-Gates/service-locations.svg)](https://goodtables.io/github/Stephen-Gates/service-locations)
+
+## Software
+
+Software is needed to implement the following spatial functions:
+
+- ~~check points are within spatial extent~~
+- ~~discover spatial data~~
+- ~~discover spatial data in a spatial area~~
+- validate point data coordinate pairs
 
 ## References
 

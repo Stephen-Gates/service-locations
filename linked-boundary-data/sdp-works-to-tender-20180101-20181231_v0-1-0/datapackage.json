@@ -1,22 +1,22 @@
 {
   "profile": "tabular-data-package",
-  "name": "sdp-works-to-tender-20180101-20181231-v0-2-0",
+  "name": "sdp-works-to-tender-20180101-20181231_v0-1-0",
   "title": "Works to tender — 1 January 2018 to 31 December 2018",
   "description": "This data set comprises construction contracts valued at $1m and above intended to be procured over the forward 12 month period. Timing and contract values listed are indicative only and subject to full tender processes. Additional project numbers can be found in the notes section.",
-  "version": "0.2.0",
-  "licenses": [{
-    "name": "CC-BY-4.0",
-    "title": "Creative Commons Attribution 4.0",
-    "path": "https://creativecommons.org/licenses/by/4.0/"
-  }],
+  "version": "0.1.0",
   "contributors": [{
     "title": "Transport and Main Roads",
     "email": "stephen.z.gates@tmr.qld.gov.au",
     "role": "author"
   }],
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/"
+  }],
   "resources": [{
     "profile": "tabular-data-resource",
-    "name": "works-to-tender-20180101-20181231",
+    "name": "proposed-major-works-to-competitive-tender",
     "title": "Works to tender — 1 January 2018 to 31 December 2018",
     "description": "This data set comprises construction contracts valued at $1m and above intended to be procured over the forward 12 month period. Timing and contract values listed are indicative only and subject to full tender processes. Additional project numbers can be found in the notes section.",
     "path": "data/Proposed-Major-Works-to-Competitive-Tender.csv",
@@ -29,11 +29,15 @@
       "title": "Creative Commons Attribution 4.0",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }],
+    "sources": [{
+      "title": "Works to tender—1 January 2018 to 31 December 2018",
+      "path": "https://data.qld.gov.au/dataset/competitive-works-to-tender-department-of-transport-and-main-roads/resource/17905c5d-f019-4ae3-838c-8c9c489bc125"
+    }],
     "locations":[{
       "type": "boundary-id",
       "field": "District",
       "codelist": "districtname",
-      "geometrypath": "https://github.com/Stephen-Gates/service-locations/raw/master/boundary-data/tmr-district-boundaries-v6-14-0/tmr-district-boundaries.json"
+      "geometrypath": "https://github.com/Stephen-Gates/service-locations/raw/master/boundary-data/tmr-district-boundaries_v6-13-0/tmr-district-boundaries.json"
       }],
     "schema": {
       "fields": [{

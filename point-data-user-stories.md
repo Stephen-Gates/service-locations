@@ -86,4 +86,4 @@ So that I can see the data on an online map
 
 Supported by custom software to read service location point data from data.qld.gov.au and use it to display service locations on a map and service details when that point is clicked
 
-![Service Location Map][service-location-map.png]
+![Service Location Map](service-location-map.png)

@@ -1,6 +1,6 @@
 {
   "profile": "tabular-data-package",
-  "name": "sdp-works-to-tender-20180101-20181231_v0-2-0",
+  "name": "sdp-works-to-tender-20180101-20181231_v0.2.0",
   "title": "Works to tender — 1 January 2018 to 31 December 2018",
   "description": "This data set comprises construction contracts valued at $1m and above intended to be procured over the forward 12 month period. Timing and contract values listed are indicative only and subject to full tender processes. Additional project numbers can be found in the notes section.",
   "version": "0.2.0",
@@ -33,7 +33,7 @@
       "type": "boundary-id",
       "field": "District",
       "codelist": "districtname",
-      "geometrypath": "https://github.com/Stephen-Gates/service-locations/raw/master/boundary-data/tmr-district-boundaries_v6-14-0/tmr-district-boundaries.json"
+      "geometrypath": "https://github.com/Stephen-Gates/service-locations/raw/master/boundary-data/tmr-district-boundaries_v6.14.0/tmr-district-boundaries.json"
       }],
     "schema": {
       "fields": [{

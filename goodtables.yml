@@ -15,5 +15,5 @@
 #
  datapackages:
   - /linked-boundary-data/works-to-tender-20180101-20181231/datapackage.json
-  - /linked-boundary-data/sdp-works-to-tender-20180101-20181231-v0-1-0/datapackage.json
-  - /linked-boundary-data/sdp-works-to-tender-20180101-20181231-v0-2-0/datapackage.json
+  - /linked-boundary-data/sdp-works-to-tender-20180101-20181231-v0.1.0/datapackage.json
+  - /linked-boundary-data/sdp-works-to-tender-20180101-20181231-v0.2.0/datapackage.json

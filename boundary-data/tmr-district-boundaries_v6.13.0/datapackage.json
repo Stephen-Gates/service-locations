@@ -1,12 +1,17 @@
 {
-  "name": "tmr-district-boundaries_v6-14-0",
+  "name": "tmr-district-boundaries_v6.13.0",
   "title": "Internal district boundaries - Department of Transport and Main Roads - Queensland",
   "description": "District boundaries for Program Delivery and Operations with Qld Department of Transport and Main Roads. Boundaries for internal use, aligned with Local Government Authority boundaries.",
-  "version": "6.14.0",
+  "version": "6.13.0",
   "resources": [{
       "name": "tmr-district-boundaries",
       "path": "tmr-district-boundaries.json",
       "spatial-profile": "simple-vector",
+      "sources": [{
+        "title": "Internal district boundaries - Department of Transport and Main Roads - Queensland",
+        "path": "http://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={748509AE-14D2-42FC-BCD7-CDEAF31ED3DB}",
+        "email": "mr.spatialinfo@tmr.qld.gov.au"
+        }],
       "locations": {
         "type": "geojson"
       },

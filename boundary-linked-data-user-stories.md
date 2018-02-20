@@ -1,5 +1,3 @@
-@todo
-
 # Boundary-linked Data User Stories
 
 ## Describe boundary-linked data
@@ -12,10 +10,8 @@ So that it can be validated, discovered and used with confidence
 
 Supported by the using:
 
-- the [`locations`](https://research.okfn.org/spatial-data-package-investigation/#point-datasets) `"type": "lat-lon"` property, to describe which columns represent `latitude` and `longitude`
-- the correct data [`type`](https://frictionlessdata.io/specs/table-schema/#types-and-formats) for the fields representing `latitude` and `longitude`
-- `minimum` and `maximum` [`constraints`](https://frictionlessdata.io/specs/table-schema/#constraints) to optionally restrict the `latitude` and `longitude` coordinate pairs to a geographic bounding box
-- the [`spatialExtent`](https://hackmd.io/s/SyyEbQuEM#Describe-and-validate-the-spatial-extent-of-point-data) property to describe the geographic bounding polygon that the `latitude` and `longitude` coordinate pairs must be inside
+- the [`locations`](https://research.okfn.org/spatial-data-package-investigation/#point-datasets) `"type": "boundary-id"` property, to describe which columns relate to the spatial boundary data
+- the correct data [`type`](https://frictionlessdata.io/specs/table-schema/#types-and-formats) for the fields representing the boundary identifiers
 
 *Note there is no `"spatial-profile": "boundary-linked"` property, to describe the type of spatial data in the data package recommended in the [Spatial Data Package Investigation](https://research.okfn.org/spatial-data-package-investigation/#package-level-).*
 

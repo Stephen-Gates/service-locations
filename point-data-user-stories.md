@@ -15,6 +15,10 @@ Supported by the using:
 - `minimum` and `maximum` [`constraints`](https://frictionlessdata.io/specs/table-schema/#constraints) to optionally restrict the `latitude` and `longitude` coordinate pairs to a geographic bounding box
 - the [`spatialExtent`](https://hackmd.io/s/SyyEbQuEM#Describe-and-validate-the-spatial-extent-of-point-data) property to describe the geographic bounding polygon that the `latitude` and `longitude` coordinate pairs must be inside
 
+*Note the lack of support for describing `latitude` and `longitude` coordinate pairs are required or optional. This can be partially achieved by putting a `required` `constraint` on both fields in the `schema` however it doesn't avoid the possibility of applying the `constraint` to only one of those fields*
+
+*Note the lack of support for for describing `missingValues` for `latitude` and `longitude` coordinate pairs.
+
 ## Validate point data coordinates
 
 ```
@@ -43,17 +47,17 @@ I want to search for point data
 So that I can quickly find the data I'm looking for
 ```
 
-Supported by using software to searching for data packages that include the `"spatial-profile": "tabular-points"` property.
+Supported by using software to search for data packages that include the `"spatial-profile": "tabular-points"` property.
 
 ## Discover point data within a geographic area
 
 ```
 As a Data Consumer
-I want to search for point data within a geographic area selected from a map
+I want to search for point data within a geographic area selected using a map
 So that I can quickly find the data I'm looking for
 ```
 
-Supported by using software to searching for data packages that:
+Supported by using software to search for data packages that:
 - include the `"spatial-profile": "tabular-points"` property
 - have a `spatialExtent` that intersects with the searched geographic area
 
@@ -70,3 +74,16 @@ So that I can see the data on an online map
 ```
 
 Supported by the `Add my data` function and uploading the point data CSV file to the [Queensland Globe](https://qldglobe.information.qld.gov.au/)
+
+
+## Display Service location point data on qld.gov.au
+
+```
+As a Data Consumer
+I want to display service location point data on qld.gov.au
+So that I can see the data on an online map
+```
+
+Supported by custom software to read service location point data from data.qld.gov.au and use it to display service locations on a map and service details when that point is clicked
+
+![Service Location Map][service-location-map.png]

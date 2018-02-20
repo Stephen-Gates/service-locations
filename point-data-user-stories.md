@@ -60,3 +60,14 @@ Supported by using software to searching for data packages that:
 *Note the lack of support for point data constrained by a geographic bounding box. Is there a need to generate a `spatialExtent` from the `minimum` and `maximum` `constraints`that restrict the `latitude` and `longitude` values?*
 
 *Another user story could be to discover point data using a name of a geographic area (e.g. town, state, country). The name could be converted to  a geographic area and then the above search performed.*
+
+## Display point data on the Queensland Globe
+
+As a Data Consumer 
+
+I want to display point data on the [Queensland Globe](https://qldglobe.information.qld.gov.au/)
+
+So that I can see the data on an online map
+
+Supported by the `Add my data` function and uploading the point data CSV file.
+

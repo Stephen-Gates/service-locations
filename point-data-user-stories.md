@@ -29,7 +29,7 @@ Supported by using software to check that `latitude` and `longitude` values matc
 
 ```
 As a Data Publisher
-I want to validate that all validate `latitude` `longitude` coordinate pairs are within a referenced geographic area
+I want to validate that all `latitude` `longitude` coordinate pairs are inside a referenced geographic area
 So that I can correct any errors and share quality data, or explain the errors in the data.
 ```
 
@@ -65,8 +65,8 @@ Supported by using software to searching for data packages that:
 
 ```
 As a Data Consumer
-I want to display point data on the [Queensland Globe](https://qldglobe.information.qld.gov.au/)
+I want to display point data on the Queensland Globe
 So that I can see the data on an online map
 ```
 
-Supported by the `Add my data` function and uploading the point data CSV file.
+Supported by the `Add my data` function and uploading the point data CSV file to the [Queensland Globe](https://qldglobe.information.qld.gov.au/)

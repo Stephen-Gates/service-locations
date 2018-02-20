@@ -5,7 +5,7 @@
 ```
 As a Data Publisher
 I want to describe boundary data in a data package
-So that it can be validated, discovered and used with confidence.
+So that it can be validated, discovered and used with confidence
 ```
 
 Supported by the using:
@@ -18,7 +18,7 @@ Supported by the using:
 ```
 As a Data Publisher
 I want to validate boundary data geometry
-So that I can correct any errors and share quality data, or explain the errors in the data.
+So that I can correct any errors and share quality data, or explain the errors in the data
 ```
 
 Supported by using software to check that boundary data geometry values
@@ -30,7 +30,7 @@ Supported by using software to check that boundary data geometry values
 ```
 As a Data Publisher
 I want to validate boundary data properties
-So that I can correct any errors and share quality data, or explain the errors in the data.
+So that I can correct any errors and share quality data, or explain the errors in the data
 ```
 
 Supported by using software to check that boundary data property values match the data `type` and comply with any `constraints` defined in the schema.
@@ -40,7 +40,7 @@ Supported by using software to check that boundary data property values match th
 ```
 As a Data Publisher
 I want to validate that all boundary data geometries are inside a referenced geographic area
-So that I can correct any errors and share quality data, or explain the errors in the data.
+So that I can correct any errors and share quality data, or explain the errors in the data
 ```
 
 Supported by using software to check that boundary data geometries are inside the geographic area referenced by the `spatialExtent`.
@@ -50,7 +50,7 @@ Supported by using software to check that boundary data geometries are inside th
 ```
 As a Data Consumer
 I want to search for boundary data
-So that I can quickly find the data I'm looking for.
+So that I can quickly find the data I'm looking for
 ```
 
 Supported by using software to searching for data packages that include the `"spatial-profile": "simple-vector"` property.
@@ -60,7 +60,7 @@ Supported by using software to searching for data packages that include the `"sp
 ```
 As a Data Consumer
 I want to search for boundary data within a geographic area selected from a map
-So that I can quickly find the data I'm looking for.
+So that I can quickly find the data I'm looking for
 ```
 
 Supported by using software to searching for data packages that:

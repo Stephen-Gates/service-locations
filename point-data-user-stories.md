@@ -5,7 +5,7 @@
 ```
 As a Data Publisher
 I want to describe point data in a data package
-So that it can be validated, discovered and used with confidence.
+So that it can be validated, discovered and used with confidence
 ```
 
 Supported by the using:
@@ -20,7 +20,7 @@ Supported by the using:
 ```
 As a Data Publisher
 I want to validate `latitude` `longitude` coordinate pairs
-So that I can correct any errors and share quality data, or explain the errors in the data.
+So that I can correct any errors and share quality data, or explain the errors in the data
 ```
 
 Supported by using software to check that `latitude` and `longitude` values match the data `type` and comply with any `constraints`.
@@ -30,7 +30,7 @@ Supported by using software to check that `latitude` and `longitude` values matc
 ```
 As a Data Publisher
 I want to validate that all `latitude` `longitude` coordinate pairs are inside a referenced geographic area
-So that I can correct any errors and share quality data, or explain the errors in the data.
+So that I can correct any errors and share quality data, or explain the errors in the data
 ```
 
 Supported by using software to check that `latitude` `longitude` coordinate pairs are inside the geographic area referenced by the `spatialExtent`.
@@ -40,7 +40,7 @@ Supported by using software to check that `latitude` `longitude` coordinate pair
 ```
 As a Data Consumer
 I want to search for point data
-So that I can quickly find the data I'm looking for.
+So that I can quickly find the data I'm looking for
 ```
 
 Supported by using software to searching for data packages that include the `"spatial-profile": "tabular-points"` property.
@@ -50,7 +50,7 @@ Supported by using software to searching for data packages that include the `"sp
 ```
 As a Data Consumer
 I want to search for point data within a geographic area selected from a map
-So that I can quickly find the data I'm looking for.
+So that I can quickly find the data I'm looking for
 ```
 
 Supported by using software to searching for data packages that:

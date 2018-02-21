@@ -37,8 +37,8 @@ In some cases these datasets drive the display of [service locations on qld.gov.
 This repository for point data:
 
 - collects [service location point data](/point-data/) from data.qld.gov.au
-- analyses the [headers in the source data](/point-data/header-analysis.csv) and [groups common headers](/point-data/header-grouping.xls) to help design a template.
-- suggests a [template](/template/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
+- analyses the [headers in the source data](/template/header-analysis.csv) and [groups common headers](/template/header-grouping.xls) to help design a template.
+- suggests a [template](/template/service-locations/) to capture service location and related data. The template uses the recommendations from the Spatial Data Package Investigation and explores [refinements discussed on the Open Knowledge Forum](https://discuss.okfn.org/t/geo-data-package/6143/25)
 - repackages the service location data into [data packages](/datapackages/) in line with the recommendations
 
 ### Linked Boundary data

@@ -1,0 +1,102 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Name",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Go Card Retailer Name",
+                        "constraints": {
+                            "required": true
+                        }
+                    },
+                    {
+                        "name": "Address",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Street Address",
+                        "description": "Go Card Retailer Street Address"
+                    },
+                    {
+                        "name": "Suburb",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Postcode",
+                        "type": "integer",
+                        "format": "default",
+                        "constraints": {
+                            "pattern": "^(0[289][0-9]{2})|([1345689][0-9]{3})|(2[0-8][0-9]{2})|(290[0-9])|(291[0-4])|(7[0-4][0-9]{2})|(7[8-9][0-9]{2})$"
+                        },
+                        "title": "Australian Postcode"
+                    },
+                    {
+                        "name": "Latitude",
+                        "type": "number",
+                        "format": "default",
+                        "constraints": {
+                            "minimum": "-30",
+                            "maximum": "-9"
+                        }
+                    },
+                    {
+                        "name": "Longtitude",
+                        "type": "number",
+                        "format": "default",
+                        "constraints": {
+                            "minimum": "137",
+                            "maximum": "154"
+                        }
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "format": "csv",
+            "mediatype": "text/csv",
+            "dialect": {
+                "delimiter": ",",
+                "quoteChar": "\"",
+                "header": true,
+                "doubleQuote": true,
+                "lineTerminator": "\r\n",
+                "skipInitialSpace": true,
+                "caseSensitiveHeader": false
+            },
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0",
+                    "path": "https://creativecommons.org/licenses/by/4.0/"
+                }
+            ],
+            "name": "gocard-retailers",
+            "title": "Go Card Retailers",
+            "sources": [
+                {
+                    "title": "go card retailers",
+                    "path": "https://data.qld.gov.au/dataset/go-card-retailers",
+                    "email": ""
+                }
+            ],
+            "path": "data/gocard-retailers.csv"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+    ],
+    "name": "gocard-retailers",
+    "title": "Go card retailers",
+    "version": "1.0.0"
+}

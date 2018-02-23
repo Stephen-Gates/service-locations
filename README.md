@@ -65,12 +65,11 @@ Based on the validation settings in [goodtables.yml](goodtables.yml) the tabular
 
 ## Software
 
-As highlighted in the User Stories, Software is needed to implement the following spatial functions:
+As highlighted in the User Stories, Software is needed to implement spatial functions for discovering, validating and displaying:
 
-- ~~check points are within spatial extent~~
-- ~~discover spatial data~~
-- ~~discover spatial data in a spatial area~~
-- validate point data coordinate pairs
+- [point data](https://github.com/Stephen-Gates/service-locations/blob/master/user-stories/point-data-user-stories.md)
+- [boundary data](https://github.com/Stephen-Gates/service-locations/blob/master/user-stories/boundary-data-user-stories.md)
+- [boundary-linked data](https://github.com/Stephen-Gates/service-locations/blob/master/user-stories/boundary-linked-data-user-stories.md)
 
 ## References
 

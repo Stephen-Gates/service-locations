@@ -20,7 +20,7 @@ These datasets could be linked to spatial [boundary data](/boundary-data/).
 
 ### Service location point data
 
-A subset point location datasets describe service locations, e.g. the locations of hospitals, schools and fire stations.
+A subset of point location datasets describe service locations, e.g. the locations of hospitals, schools and fire stations.
 
 These are not published in a consistent way making it hard to combine the data. Some location datasets also include services available at the location and opening times, e.g. [Transport and motoring customer service centres](https://data.qld.gov.au/dataset/transport-csc).
 
